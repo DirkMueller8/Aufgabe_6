@@ -30,6 +30,8 @@ namespace Aufgabe_6
         public MainWindow()
         {
             InitializeComponent();
+            int fontSizeLabel = (int)lbl_1.FontSize;
+            MessageBox.Show(fontSizeLabel.ToString());
         }
 
         private void btnExchange_Click(object sender, RoutedEventArgs e)
@@ -37,6 +39,12 @@ namespace Aufgabe_6
             tempLabelText = lbl_1.Content.ToString();
             lbl_1.Content = lbl_2.Content;
             lbl_2.Content = tempLabelText;
+        }
+
+        private void chbSize_Checked(object sender, RoutedEventArgs e)
+        {
+            lbl_1.FontSize = 16;
+            lbl_2.FontSize = 16;
         }
     }
 }

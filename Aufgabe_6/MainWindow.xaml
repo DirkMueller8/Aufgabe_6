@@ -10,6 +10,7 @@
     <Label x:Name="lbl_1" Content="111111111" HorizontalAlignment="Left" Margin="59,41,0,0" VerticalAlignment="Top"/>
     <Label x:Name="lbl_2" Content="22222222" HorizontalAlignment="Left" Margin="165,41,0,0" VerticalAlignment="Top"/>
     <Button x:Name="btnExchange" Content="Exchange text in labels" HorizontalAlignment="Left" Margin="59,91,0,0" VerticalAlignment="Top" Click="btnExchange_Click"/>
+    <CheckBox x:Name="chbSize" Content="Increase font size" HorizontalAlignment="Left" Margin="249,47,0,0" VerticalAlignment="Top" Checked="chbSize_Checked"/>
 
 
   </Grid>
