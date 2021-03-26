@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Aufgabe_6"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="450">
-  <Grid>
-    <Label x:Name="lbl_1" Content="111111111" HorizontalAlignment="Left" Margin="59,41,0,0" VerticalAlignment="Top"/>
-    <Label x:Name="lbl_2" Content="22222222" HorizontalAlignment="Left" Margin="165,41,0,0" VerticalAlignment="Top"/>
-    <Button x:Name="btnExchange" Content="Exchange text in labels" HorizontalAlignment="Left" Margin="59,91,0,0" VerticalAlignment="Top" Click="btnExchange_Click"/>
-    <CheckBox x:Name="chbSize" Content="Increase font size" HorizontalAlignment="Left" Margin="249,47,0,0" VerticalAlignment="Top" Checked="chbSize_Checked"/>
-
-
+        Title="Swap label contents" Height="190" Width="440
+        ">
+  <Grid x:Name="Swap_label_content">
+    <Label x:Name="lbl_1" Content="a1a1a1a1a1a1" HorizontalAlignment="Left" Margin="31,41,0,0" VerticalAlignment="Top"/>
+    <Label x:Name="lbl_2" Content="b2b2b2b2b2b2" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top"/>
+    <Button x:Name="btnExchange" Content="Exchange text in labels" HorizontalAlignment="Left" Margin="31,88,0,0" VerticalAlignment="Top" Click="btnExchange_Click"/>
+    <CheckBox x:Name="chbSize" Content="Increase font size" HorizontalAlignment="Left" Margin="285,46,0,0" VerticalAlignment="Top" Checked="chbSize_Checked" Unchecked="chbSize_Unchecked"/>
+    <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="226,87,0,0" VerticalAlignment="Top" Click="btnClose_Click"/>
   </Grid>
 </Window>
